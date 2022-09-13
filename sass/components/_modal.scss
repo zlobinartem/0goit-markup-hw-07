@@ -140,6 +140,7 @@
 .terms {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .check__input {
@@ -147,11 +148,11 @@
     appearance: none;
     -webkit-appearance: none;
 }
-
+.check{
+}
 .form-icon-check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 4px;
     width: 16px;
     height: 15px;
     border: 2px solid var(--text);
@@ -161,15 +162,15 @@
     cursor: pointer;
 }
 
-.check__input:checked+.terms>.form-icon-check {
-    border: var(--active);
+.check__input:checked+.check>.form-icon-check {
+    border: none;
     background-color: var(--active);
 
 }
 
 .terms-text,
 .terms-link {
-    margin-left: 8px;
+    margin-left: 25px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
