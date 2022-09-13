@@ -1,0 +1,20 @@
+
+.page {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto';
+    color: var(--main-text);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 2px solid tomato; */
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
